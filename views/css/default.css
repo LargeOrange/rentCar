@@ -1,0 +1,437 @@
+body {
+	min-width: 1200px;
+	color: #2f333d;
+	background-color: #EEEEEE;
+	font: "microsoft yahei";
+}
+img{
+	overflow: hidden;
+}
+
+a {
+	color: #EEEEEE;
+}
+
+a:hover {
+	color: #EEEEEE;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	display: none
+}
+
+
+/* 导航栏 begin */
+
+.navigation {
+	min-width: 1200px;
+	max-height: 1200px;
+	height: 80px;
+	background-color: #FFFFFF;
+}
+
+.navigation ul {
+	list-style: none;
+	margin: auto;
+}
+
+.navigation ul li {
+	float: left;
+	margin-right: 38px;
+	line-height: 80px;
+	font-size: 14px;
+}
+
+.navigation ul li span {
+	padding: 5px;
+}
+
+.navigation ul li span:hover {
+	border-bottom: 4px solid red;
+	cursor: pointer;
+}
+
+.nav-logo {
+	position: absolute;
+	z-index: 999;
+}
+
+.nav-title {
+	padding-left: 110px;
+}
+
+.nav-users {
+	float: right;
+	height: 80px;
+	line-height: 80px;
+}
+
+.btn-class {
+	font-size: 14px;
+	border-radius: 4px;
+	height: 26px;
+	width: 90px;
+	color: #f94c43;
+	background-color: #FFFFFF;
+	line-height: 22px;
+	border: 1px solid #F53618;
+}
+
+.btn-class:hover {
+	font-size: 14px;
+	border-radius: 4px;
+	height: 26px;
+	width: 90px;
+	background-color: #f94c43;
+	color: #FFFFFF;
+	line-height: 22px;
+	border: 1px solid #F53618;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+
+/* 导航栏 end */
+
+
+/* banner begin */
+
+.carousel-indicators li {
+	width: 16px;
+	height: 10px;
+	border-radius: 0;
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	-ms-transform: skew(-35deg);
+	transform: skew(-35deg);
+	background: #CCCCCC;
+	border: 1px solid #CCCCCC;
+	margin: 0 5px 0 5px;
+}
+
+.carousel-indicators .active {
+	width: 16px;
+	height: 10px;
+	border-radius: 0;
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	-ms-transform: skew(-35deg);
+	transform: skew(-35deg);
+	background: #f94c43;
+	border: 1px solid #f94c43;
+	margin: 0 5px 0 5px;
+}
+
+.carousel-control {
+	color: #ccc;
+	opacity: .8;
+}
+
+
+/* banner end */
+
+
+/* 热门车型 begin */
+
+.box {
+	height: 700px;
+	max-width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+
+.box-title {
+	margin: 0 auto;
+	padding-top: 60px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.title-text-style {
+	margin: 0 auto;
+	width: 100px;
+}
+
+.title-text {
+	width: 50px;
+	float: left;
+}
+
+.title-text-follow {
+	width: 100%;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+.car-content {
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 430px;
+}
+
+.panel33 {
+	width: 33.3333%;
+	height: 430px;
+	overflow: hidden;
+	margin: 0 auto;
+	float: left;
+}
+
+.car-content-panel {
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.tip-icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999;
+}
+
+.car-img-price {
+	margin: 0 auto;
+	background-color: #535a68;
+	width: 350px;
+	height: 60px;
+}
+
+.car-img-price:hover {
+	background-color: #F94C43;
+	cursor: pointer;
+}
+
+.price-default {
+	line-height: 60px;
+	font-size: 24px;
+	color: #EEEEEE;
+	display: block;
+}
+
+.price-hover {
+	display: none;
+}
+
+.price-hover-style {
+	padding: 0px 15px 0px 15px;
+	line-height: 60px;
+	font-size: 14px;
+	color: #EEEEEE;
+}
+
+.car-info {
+	text-align: left;
+	color: #535a68;
+}
+
+.car-info h3 {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.car-info p {
+	height: auto;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	white-space: normal;
+	font-size: 14px;
+}
+
+.pages {
+	height: 30px;
+	line-height: 27px;
+	width: 200px;
+	border-radius: 50px;
+	margin: 0 auto;
+	background-color: #F7F7F7;
+}
+
+.pages-ol {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.pages-ol li {
+	width: 14px;
+	height: 6px;
+	border-radius: 0;
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	-ms-transform: skew(-35deg);
+	transform: skew(-35deg);
+	background: #535a68;
+	border: 1px solid #535a68;
+	margin: 0 1px 0 1px;
+	display: inline-block;
+}
+
+.pages-ol li:hover {
+	cursor: pointer;
+}
+
+.pages-ol .active {
+	width: 28px;
+	height: 6px;
+	border-radius: 0;
+	-webkit-transform: skew(-35deg);
+	-moz-transform: skew(-35deg);
+	-o-transform: skew(-35deg);
+	-ms-transform: skew(-35deg);
+	transform: skew(-35deg);
+	background: #F94C43;
+	border: 1px solid #F94C43;
+	margin: 0 1px 0 1px;
+	display: inline-block;
+}
+
+
+/* 热门车型 end */
+
+
+/* 我们的服务 begin */
+
+.info-panel {
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 430px;
+}
+.panel-service{
+	width: 25%;
+	float: left;
+	cursor: pointer;
+}
+.service-img{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+.service-name{
+	width: 250px;
+	height: 100px;
+	background-color: #535A68;
+	border-bottom: 3px solid #F94C43;
+	text-align: center;
+	color: #C6CCDB;
+	font-size: 18px;
+	line-height: 100px;
+	margin: 0 auto;
+	
+}
+.service-content{
+	width: 250px;
+	height: 200px;
+	background-color: #F94C43;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+	display: none;
+}
+
+.service-content h3{
+	margin-top: 0px;
+	padding-top: 15px;
+	font-size: 18px;
+}
+.service-content p{
+	padding: 10px 20px 0px 20px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+}
+/* 我们的服务 end */
+
+.footer {
+	height: 180px;
+	background-color: #535A68;
+	background-image: url(../img/3879F62918B4ABCBE37FD484C1118DC4.png);
+	color: #EEEEEE;
+}
+
+.left1 {
+	padding-top: 65px;
+	height: 50px;
+	float: left;
+	width: 1060px;
+	line-height: 28px;
+}
+
+.right2 {
+	padding-top: 65px;
+	float: left;
+	width: 90px;
+}
+
+
+.login-bg{
+	min-width: 1440px;
+	min-height: 500px;
+	background-image: url(../img/img_login1920x700.jpg);
+	background-position: center;
+}
+
+.login-box{
+	width: 400px;
+	height: 350px;
+	float: right;
+	margin-top: 75px;
+	background-color: #000;
+	background-color:rgba(0,0,0,0.7);
+}
+.login-title{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-top: 30px;
+}
+.login-input{
+	text-align: center;
+	margin-top: 35px;
+}
+.login-input input{
+	background-color: #000;
+	background-color:rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	border: 1px solid #F53618;
+	height: 40px;
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.login-input button{
+	width: 100px;
+	height: 40px;
+	background-color: #F53618;
+	border: none;
+	color: #FFFFFF;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+.login-tip{
+	width: 300px;
+	color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.login-submit{
+	width: 300px;
+	margin: 0 auto;
+}
+.login-submit button{
+	width: 300px;
+	height: 40px;
+	background-color: #F53618;
+	border: none;
+	color: #FFFFFF;
+	margin-top: 25px;
+}
