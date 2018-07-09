@@ -27,7 +27,6 @@ a:hover {
 
 .navigation {
 	min-width: 1200px;
-	max-height: 1200px;
 	height: 80px;
 	background-color: #FFFFFF;
 }
@@ -356,6 +355,7 @@ a:hover {
 	background-color: #535A68;
 	background-image: url(../img/3879F62918B4ABCBE37FD484C1118DC4.png);
 	color: #EEEEEE;
+	
 }
 
 .left1 {
@@ -434,4 +434,106 @@ a:hover {
 	border: none;
 	color: #FFFFFF;
 	margin-top: 25px;
+}
+
+
+
+/* enter.html begin */
+.title-h3{
+	font-size: 18px;
+	margin-top: 50px;
+}
+.head-img{
+	min-width: 1200px;
+	max-width: 1920px;
+	max-height: 300px;
+	margin: 0 auto;
+	background-color: #F4FF77;
+	text-align: center;
+}
+.form-group{
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.form-group label{
+	font-weight: normal;
+	font-size: 14px;
+	color: #767E8E;
+}
+
+.car-info-submit{
+	width: 320px;
+	height: 60px;
+	border-radius: 50px;
+	background-color: #F53618;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+.label1{
+	font-size: 14px;
+	font-weight: normal;
+	color: #767E8E;
+	margin-top: 20px;
+}
+
+
+
+
+.title-btn{
+	font-size: 18px;
+	color: #000000;
+	margin:0 auto;
+	height: 75px;
+	margin-top: 30px;
+}
+
+.title-btn label{
+	font-weight: normal;
+}
+
+.btn-active{
+	color: #F53618;
+	cursor: pointer;
+}
+
+.line1{
+	margin-left: 30px;
+	margin-right: 30px;
+	font-weight: normal;
+}
+.vip-img{
+	margin-top: 50px;
+}
+.vip-img img{
+	width: 360px;
+	height: 240px;
+}
+
+.vip-car-table{
+	margin-top: 50px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 3px solid #FFFFFF;
+}
+
+.table-title{
+	font-size: 12px;
+	color: #767E8E;
+	height: 22px;
+}
+.table-content{
+	font-size: 18px;
+	color: #2F333D;
+}
+td {
+	height: 70px;
+}
+
+
+.submit-btn{
+	height: 300px;
 }
