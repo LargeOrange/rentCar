@@ -9,5 +9,9 @@ router.get('/login', function(req, res, next) {
   res.render('login.ejs');
   // res.sendFile('../jufeng/index.html')
 });
+router.get('/addCar', function(req, res, next) {
+  res.render('enter.ejs');
+  // res.sendFile('../jufeng/index.html')
+});
 
 module.exports = router;
