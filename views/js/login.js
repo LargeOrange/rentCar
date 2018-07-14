@@ -33,7 +33,8 @@ $(document).ready(function(){
           if ($('#remember').is(':checked')) {
             SetCookie(user, JSON.stringify(data.data));
           }
-          window.location.href="http://localhost:3000";
+          // window.location.href="http://localhost:3000";
+          window.location.href="http://39.106.117.29:3000/";
           window.event.returnValue = false;
         } else {
           alert('登录失败');
