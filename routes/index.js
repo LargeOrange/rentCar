@@ -11,7 +11,14 @@ router.get('/login', function(req, res, next) {
 });
 router.get('/addCar', function(req, res, next) {
   res.render('enter.ejs');
-  // res.sendFile('../jufeng/index.html')
+});
+
+router.get('/list', function(req, res, next) {
+  res.render('list.ejs');
+});
+
+router.get('/vip', function(req, res, next) {
+  res.render('vip.ejs');
 });
 
 module.exports = router;

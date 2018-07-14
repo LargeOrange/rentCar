@@ -18,28 +18,28 @@ def post(url, data):
 def get_login_code():
     url = "http://47.100.24.146:8003/api/user/send_login_code"
     data = {
-        'mobile': '15666698065',
-        'device_id': 'asdadasdasda'
+        'mobile': '13551916138',
+        'device_id': 'aaaa'
     }
     print(post(url, data))
-
 
 
 def user_login():
     url = "http://47.100.24.146:8003/api/user/user_login"
     data = {
-        'mobile': '15666698065',
-        'device_id': 'asdadasdasda',
-        'code': '2765'
+        'mobile': '13551916138',
+        'device_id': 'aaaa',
+        'code': '5746'
     }
     print(post(url, data))
 
 
-
 def get_car():
     url = "http://47.100.24.146:8003/api/car/get_car"
+    url = "http://localhost:8000/api/car/get_car"
+
     data = {
-        'page': 2,
+        'page': 1,
         'pageSize': 2
     }
     # print type(post(url, data))
@@ -47,25 +47,79 @@ def get_car():
     print(post(url, data))
 
 
-def insert_car():
-    url = "http://47.100.24.146:8000/carinfo/insertCarInfoByUserId"
+def get_car_by_id():
+    url = "http://localhost:8000/api/car/get_by_id"
+    url = "http://47.100.24.146:8003/api/car/get_by_id"
     data = {
-        'userid': 1,
-        'car_no': 'jingA 00JSW2',
-        'car_img': 'you base64',
-        'car_back': 'you base64',
-        'car_leftFront': 'you base64',
-        'car_leftBack': 'you base64',
-        'car_inner': 'you base64',
-        'origin_price': 600
+        'car_id': 6
     }
     print(post(url, data))
-    print(type(post(url, data)))
+    # print(type(post(url, data)))
+
+
+def generate_order():
+    url = "http://47.100.24.146:8003/api/order/generate"
+    url = "http://localhost:8000/api/order/generate"
+    data = {
+
+        'car_id': 6,
+        'user_id': 9,
+        'mobile': '15666698065',
+        'start_time': '2018-07-07',
+        'end_time': '2018-07-10',
+        'order_price': 0.01,
+        'discount_price': 0.002,
+        'location': '北京市海淀区上地东路',
+        'memo': '这是备注内容',
+        'token': 'xxx',
+        'sig': 'xxx'
+    }
+    # print type(post(url, data))
+
+    print(post(url, data))
+
+
+def ins_pre_car():
+    url = "http://47.100.24.146:8003/api/car/ins_pre_car"
+    # url = "http://localhost:8000/api/car/ins_pre_car"
+    data = {
+        'name': 'sdadaad',
+        'mobile': '15666698065',
+        'car_brand': 'sss',
+        'car_no': 'sxxx',
+        'memo': '这是备注内容'
+    }
+    print(post(url, data))
+
+
+def get_car_by_userid():
+    url = "http://47.100.24.146:8003/api/car/get_by_userid"
+    # url = "http://localhost:8000/api/car/get_by_userid"
+    data = {
+
+        'user_id': '9'
+    }
+    print(post(url, data))
+
+
+def get_order_by_userid():
+    url = "http://47.100.24.146:8003/api/order/get_by_userid"
+    # url = "http://localhost:8000/api/order/get_by_userid"
+    data = {
+
+        'user_id': '9'
+    }
+    print(post(url, data))
 
 
 if __name__ == '__main__':
     # get_login_code()#请求注册验证码
 
-    user_login()  # 获取用户信息
+    # user_login()  # 获取用户信息
 
-    get_car()
+    # get_car()
+    # generate_order()
+    # get_car_by_id()
+    # ins_pre_car()
+    get_car_by_userid()
+    # get_order_by_userid()
