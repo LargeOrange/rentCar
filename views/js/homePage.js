@@ -1,32 +1,32 @@
 $(document).ready(function(){
   $("#login").click(function(){
-    window.location.href="http://39.106.117.29:3000/login";
-    // window.location.href="http://localhost:3000/login";
+    // window.location.href="http://39.106.117.29:3000/login";
+    window.location.href="http://localhost:3000/login";
     window.event.returnValue = false;
   });
   $("#addCar").click(function(){
-    window.location.href="http://39.106.117.29:3000/addCar";
-    // window.location.href="http://localhost:3000/addCar";
+    // window.location.href="http://39.106.117.29:3000/addCar";
+    window.location.href="http://localhost:3000/addCar";
     window.event.returnValue = false;
   });
   $("#list").click(function(){
-    window.location.href="http://39.106.117.29:3000/list";
-    // window.location.href="http://localhost:3000/list";
+    // window.location.href="http://39.106.117.29:3000/list";
+    window.location.href="http://localhost:3000/list";
     window.event.returnValue = false;
   });
   $('#home').click(function() {
-    window.location.href="http://39.106.117.29:3000/";
-    // window.location.href="http://localhost:3000";
+    // window.location.href="http://39.106.117.29:3000/";
+    window.location.href="http://localhost:3000";
     window.event.returnValue = false;
   })
   $('#vip').click(function() {
-    window.location.href="http://39.106.117.29:3000/vip";
-    // window.location.href="http://localhost:3000/vip";
+    // window.location.href="http://39.106.117.29:3000/vip";
+    window.location.href="http://localhost:3000/vip";
     window.event.returnValue = false;
   })
   $('#aboutUs').click(function() {
-    window.location.href="http://39.106.117.29:3000/aboutUs";
-    // window.location.href="http://localhost:3000/aboutUs";
+    // window.location.href="http://39.106.117.29:3000/aboutUs";
+    window.location.href="http://localhost:3000/aboutUs";
     window.event.returnValue = false;
   });
 
